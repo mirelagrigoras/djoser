@@ -5,17 +5,17 @@
 {% endblock %}
 
 {% block text_body %}
-{% trans "Your account has been created and is ready to use!" %}
+{% blocktrans "Your account has been created and is ready to use!" %}
 
-{% trans "Thanks for using our site!" %}
+{% blocktrans "Thanks for using our site!" %}
 
 {% blocktrans %}The {{ site_name }} team{% endblocktrans %}
 {% endblock text_body %}
 
 {% block html_body %}
-<p>{% trans "Your account has been created and is ready to use!" %}</p>
+<p>{% blocktrans "Your account has been created and is ready to use!" %}</p>
 
-<p>{% trans "Thanks for using our site!" %}</p>
+<p>{% blocktrans "Thanks for using our site!" %}</p>
 
 <p>{% blocktrans %}The {{ site_name }} team{% endblocktrans %}</p>
 {% endblock html_body %}
